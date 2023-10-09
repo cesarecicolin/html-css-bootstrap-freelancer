@@ -34,3 +34,9 @@ img{
     background-color: aquamarine;
     min-height: 600px;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
