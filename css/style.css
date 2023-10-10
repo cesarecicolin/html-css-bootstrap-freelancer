@@ -2,7 +2,13 @@
 img{
     max-width: 100%;
 }
+li{
+    list-style-type: none;
+}
 /* utility */
+.ms-btn{
+    border: 1px solid white;
+}
 
 .wrapper{
     width: 60%;
@@ -30,7 +36,7 @@ ul a {
 #hero{
     color: white;
     padding: 3rem;
-    background-color: aquamarine;
+    background-color: #1abc9c;
     min-height: 500px;
 }
 
@@ -54,12 +60,31 @@ ul a {
 
 /* about */
 #about{
-    background-color: aquamarine;
-    min-height: 600px;
+    background-color: #1abc9c;
+    
+}
+#about .container {
+    color: white;
+}
+/* contact */
+.ms-bord{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 /* FOOTER */
 footer{
-    background-color: black;
+    background-color: #3a546d;
     color: white;
+}
+
+.ms-row{
+    display: flex;
+}
+.ms-row li{
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
 }
